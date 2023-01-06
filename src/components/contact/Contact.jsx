@@ -7,7 +7,7 @@ function Contact() {
     window.open(url);
   };
   return (
-    <div className={Styles.contact}>
+    <div className={Styles.contact} id="contactScroll">
       <div className={Styles.wrapper}>
         <h1>Contact</h1>
         <div className={Styles.wrapperDiv}>

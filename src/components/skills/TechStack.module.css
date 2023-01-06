@@ -17,8 +17,11 @@
 
 .main:hover {
   transform: scale(1.1);
-  transition:ease 0.5s
-  
+  color: #ff8a2e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .main > div {

@@ -56,6 +56,14 @@
   cursor: pointer;
 }
 
+.resume:hover {
+  background-color: #ff8a2e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
 .homeRight {
   display: flex;
   align-items: center;

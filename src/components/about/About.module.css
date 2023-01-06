@@ -41,12 +41,28 @@
   cursor: pointer;
 }
 
-.aboutWrapperTextDiv3 > :nth-child(1) {
+.githubBtn {
   color: black;
 }
 
-.aboutWrapperTextDiv3 > :nth-child(2) {
+.githubBtn:hover {
+  color: #ff8a2e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.linkedinBtn {
   color: white;
+}
+
+.linkedinBtn:hover {
+  color: #ff8a2e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .aboutWrapperImg {

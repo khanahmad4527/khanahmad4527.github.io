@@ -18,6 +18,7 @@
 
 .wrapperLeft img {
   width: 50px;
+  cursor: pointer;
 }
 
 .wrapperRight {
@@ -31,5 +32,5 @@
 
 .wrapperRight > p:hover {
   cursor: pointer;
-  color: #e2e4e3;
+  color: #ff8a2e;
 }

@@ -7,7 +7,7 @@ function About() {
   };
 
   return (
-    <div className={Styles.about}>
+    <div className={Styles.about} id="aboutScroll">
       <h1 className={Styles.aboutH1}>About me</h1>
       <div className={Styles.aboutWrapper}>
         <div className={Styles.aboutWrapperText}>
@@ -27,12 +27,12 @@ function About() {
           <div className={Styles.aboutWrapperTextDiv3}>
             <AiFillGithub
               onClick={() => openLink("https://github.com/khan4527")}
-            />
+            className={Styles.githubBtn}/>
             <AiFillLinkedin
               onClick={() =>
                 openLink("https://www.linkedin.com/in/ahmadkhan45")
               }
-            />
+              className={Styles.linkedinBtn}/>
           </div>
         </div>
         <div className={Styles.aboutWrapperImg}>

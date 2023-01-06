@@ -7,7 +7,7 @@ function Home() {
     window.open(url);
   };
   return (
-    <div className={Styles.home}>
+    <div className={Styles.home} id="homeScroll">
       <div className={Styles.homeWrapper}>
         <div className={Styles.homeLeft}>
           <div>Hi, I'm Ahmad Khan</div>
