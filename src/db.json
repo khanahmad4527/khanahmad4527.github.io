@@ -1,0 +1,155 @@
+{
+  "technologies": [
+    {
+      "id": "1",
+      "title": "JavaScript",
+      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
+    },
+    {
+      "id": "2",
+      "title": "React",
+      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_logo_icon_146374.png"
+    },
+    {
+      "id": "3",
+      "title": "Redux",
+      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/redux_original_logo_icon_146365.png"
+    },
+    {
+      "id": "4",
+      "title": "HTML",
+      "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png"
+    },
+    {
+      "id": "5",
+      "title": "CSS",
+      "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png"
+    },
+    {
+      "id": "7",
+      "title": "GitHub",
+      "src": "https://cdn.icon-icons.com/icons2/936/PNG/512/github-logo_icon-icons.com_73546.png"
+    },
+    {
+      "id": "8",
+      "title": "Node.js",
+      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/nodejs_plain_logo_icon_146409.png"
+    },
+    {
+      "id": "9",
+      "title": "MongoDB",
+      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png"
+    },
+    {
+      "id": "10",
+      "title": "Next.js",
+      "src": "https://cdn.icon-icons.com/icons2/2148/PNG/512/nextjs_icon_132160.png"
+    }
+  ],
+  "proficiencies": [
+    {
+      "id": "p1",
+      "title": "Frontend",
+      "src": "https://cdn-icons-png.flaticon.com/512/1055/1055666.png"
+    },
+    {
+      "id": "p2",
+      "title": "Backend",
+      "src": "https://cdn-icons-png.flaticon.com/512/6213/6213731.png"
+    },
+    {
+      "id": "p3",
+      "title": "DSA",
+      "src": "https://cdn-icons-png.flaticon.com/512/6911/6911893.png"
+    }
+  ],
+  "tools": [
+    {
+      "id": "t1",
+      "title": "VS Code",
+      "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png"
+    },
+    {
+      "id": "t2",
+      "title": "Netlify",
+      "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_netlify_icon_130354.png"
+    },
+    {
+      "id": "t3",
+      "title": "Versel",
+      "src": "https://cdn.icon-icons.com/icons2/3375/PNG/512/vercel_brand_icon_211876.png"
+    },
+    {
+      "id": "t4",
+      "title": "Windows",
+      "src": "https://cdn.icon-icons.com/icons2/1488/PNG/512/5314-windows_102509.png"
+    },
+    {
+      "id": "t5",
+      "title": "Google",
+      "src": "https://cdn.icon-icons.com/icons2/729/PNG/512/google_icon-icons.com_62736.png"
+    },
+    {
+      "id": "t6",
+      "title": "CodeSandBox",
+      "src": "https://cdn.icon-icons.com/icons2/3266/PNG/512/code_box_icon_207329.png"
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "image": "https://lh4.googleusercontent.com/QjmsuXkt2kMdJJ0FaGcr9uj1lyDdlFtGtCc22m_v0aWgFGjZfizZ-UUHMBzFd4Bwbao=w2400",
+      "title": "Survey Company",
+      "description": "Survey Company is a cloud-based survey application that assists users in the creation, distribution, and analysis of surveys. To boost response rates, users can send surveys to respondents and publish them on their websites and social media accounts.",
+      "tech_stack": [
+        {
+          "id": "t1",
+          "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png",
+          "title": "JavaScript"
+        },
+        {
+          "id": "t2",
+          "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png",
+          "title": "HTML"
+        },
+        {
+          "id": "t3",
+          "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png",
+          "title": "CSS"
+        },
+        {
+          "id": "t4",
+          "src": "https://cdn.icon-icons.com/icons2/2790/PNG/512/json_filetype_icon_177531.png",
+          "title": "JSON"
+        }
+      ],
+      "github": "https://github.com/khan4527/survey_company_cwp02",
+      "deploy": "https://roaring-cendol-2586db.netlify.app/userhtml/userlanding"
+    },
+    {
+      "id": "p2",
+      "image": "https://lh4.googleusercontent.com/2_vYEIonfmjYD9I_N5vO_y2kfq63_zR_Gt2nAkp8x8GneN7VaxJEFf4ieOkxKPXVXbc=w2400",
+      "title": "Twiik",
+      "description": "Twiik is a fitness company which provide membership to track the health of a user and best trainers, gyms & coaches all in one app",
+      "tech_stack": [
+        {
+          "id": "t1",
+          "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png",
+          "title": "JavaScript"
+        },
+        {
+          "id": "t2",
+          "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png",
+          "title": "HTML"
+        },
+        {
+          "id": "t3",
+          "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png",
+          "title": "CSS"
+        }
+      ],
+      "github": "https://github.com/khan4527/utopian-wood-8919",
+      "deploy": "https://lucent-starlight-406966.netlify.app/"
+    }
+  ]
+}

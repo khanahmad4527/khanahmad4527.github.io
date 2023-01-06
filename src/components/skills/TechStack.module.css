@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 180px;
+  background-color: transparent;
+  padding: 10px;
+  color: #005685;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.main:hover {
+  transform: scale(1.1);
+  transition:ease 0.5s
+  
+}
+
+.main > div {
+  width: 150px;
+  height: 150px;
+}
+
+.main img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
