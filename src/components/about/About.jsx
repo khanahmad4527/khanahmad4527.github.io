@@ -2,6 +2,10 @@ import Styles from "./About.module.css";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 function About() {
+  const openLink = (url) => {
+    window.open(url);
+  };
+
   return (
     <div className={Styles.about}>
       <h1 className={Styles.aboutH1}>About me</h1>
@@ -21,8 +25,14 @@ function About() {
             photographer also. And I enjoying the journey than the destination
           </div>
           <div className={Styles.aboutWrapperTextDiv3}>
-            <AiFillGithub />
-            <AiFillLinkedin />
+            <AiFillGithub
+              onClick={() => openLink("https://github.com/khan4527")}
+            />
+            <AiFillLinkedin
+              onClick={() =>
+                openLink("https://www.linkedin.com/in/ahmadkhan45")
+              }
+            />
           </div>
         </div>
         <div className={Styles.aboutWrapperImg}>

@@ -3,6 +3,10 @@ import Styles from "./ProjectSet.module.css";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 function ProjectSet({ image, title, description, tech_stack, github, deploy }) {
+  const openLink = (url) => {
+    window.open(url);
+  };
+
   return (
     <div className={Styles.set}>
       <div className={Styles.container}>
@@ -18,10 +22,10 @@ function ProjectSet({ image, title, description, tech_stack, github, deploy }) {
             ))}
           </div>
           <div className={Styles.btn}>
-            <div>
+            <div onClick={() => openLink(github)}>
               GitHub <FaGithub />
             </div>
-            <div>
+            <div onClick={() => openLink(deploy)}>
               Deploy <FaExternalLinkAlt />
             </div>
           </div>

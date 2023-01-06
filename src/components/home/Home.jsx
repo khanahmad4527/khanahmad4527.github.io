@@ -3,6 +3,9 @@ import { FaCloudDownloadAlt } from "react-icons/fa";
 import resume from "../../Ahmad-Khan-Resume.pdf";
 
 function Home() {
+  const openLink = (url) => {
+    window.open(url);
+  };
   return (
     <div className={Styles.home}>
       <div className={Styles.homeWrapper}>
@@ -17,7 +20,14 @@ function Home() {
             technologies
           </div>
           <a href={resume} download>
-            <div className={Styles.resume}>
+            <div
+              onClick={() =>
+                openLink(
+                  "https://drive.google.com/file/d/14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b/view?usp=share_link"
+                )
+              }
+              className={Styles.resume}
+            >
               Resume <FaCloudDownloadAlt />
             </div>
           </a>

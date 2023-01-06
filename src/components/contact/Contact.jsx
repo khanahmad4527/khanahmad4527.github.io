@@ -3,6 +3,9 @@ import { SiGmail } from "react-icons/si";
 import { IoMdCall } from "react-icons/io";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 function Contact() {
+  const openLink = (url) => {
+    window.open(url);
+  };
   return (
     <div className={Styles.contact}>
       <div className={Styles.wrapper}>
@@ -22,8 +25,14 @@ function Contact() {
               <IoMdCall /> +917021764527
             </div>
             <div>
-              <AiFillLinkedin />
-              <AiFillGithub />
+              <AiFillLinkedin
+                onClick={() =>
+                  openLink("https://www.linkedin.com/in/ahmadkhan45")
+                }
+              />
+              <AiFillGithub
+                onClick={() => openLink("https://github.com/khan4527")}
+              />
             </div>
           </div>
         </div>
