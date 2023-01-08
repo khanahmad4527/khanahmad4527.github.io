@@ -1,5 +1,5 @@
 .skills {
-  background-color: white;
+  background-color: #e2e4e3;
   padding: 40px 0px 60px 0px;
 }
 
@@ -12,6 +12,10 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
+}
+
+.heading {
+  font-size: 40px;
 }
 
 .skillsTechnologiesDiv {
@@ -42,4 +46,42 @@
   grid-template-columns: repeat(4, auto);
   gap: 40px;
   padding: 20px 0px;
+}
+
+/* meidum screens */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .skillsWrapper {
+    width: 100%;
+  }
+
+  .skillsTechnologiesDiv {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .skillsProficienciesDiv {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .skillsToolsDiv {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+/* small screens */
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .skillsWrapper {
+    width: 100%;
+  }
+
+  .skillsTechnologiesDiv {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .skillsProficienciesDiv {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .skillsToolsDiv {
+    grid-template-columns: repeat(2, auto);
+  }
 }

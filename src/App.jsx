@@ -5,6 +5,7 @@ import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Calender from "./components/github/Calender";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Calender />
       <Projects />
       <Contact />
       <Footer />

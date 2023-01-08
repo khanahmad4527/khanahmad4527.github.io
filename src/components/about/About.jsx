@@ -27,12 +27,14 @@ function About() {
           <div className={Styles.aboutWrapperTextDiv3}>
             <AiFillGithub
               onClick={() => openLink("https://github.com/khan4527")}
-            className={Styles.githubBtn}/>
+              className={Styles.githubBtn}
+            />
             <AiFillLinkedin
               onClick={() =>
                 openLink("https://www.linkedin.com/in/ahmadkhan45")
               }
-              className={Styles.linkedinBtn}/>
+              className={Styles.linkedinBtn}
+            />
           </div>
         </div>
         <div className={Styles.aboutWrapperImg}>
