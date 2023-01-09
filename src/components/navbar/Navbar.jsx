@@ -56,7 +56,7 @@ function Navbar() {
             </Link>
           </div>
           <div>
-            <a href={resume} download={resume}>
+            <a download="Ahmad-Khan-Resume.pdf" href={resume}>
               <div
                 onClick={() =>
                   openLink(
