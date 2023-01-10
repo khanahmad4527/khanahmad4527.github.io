@@ -35,7 +35,7 @@ function Navbar() {
             </Link>
           </div>
           <div>
-            <Link to="aboutScroll" smooth={true} offset={-68} duration={500}>
+            <Link to="aboutScroll" smooth={true} offset={-79} duration={500}>
               About
             </Link>
           </div>

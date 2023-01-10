@@ -9,7 +9,7 @@ function Home() {
     <div className={Styles.home} id="homeScroll">
       <div className={Styles.homeWrapper}>
         <div className={Styles.homeLeft}>
-          <div>Hi, I'm Ahmad Khan</div>
+          <div>Hello, I'm Ahmad Khan</div>
           <div>
             A skilled <strong>Full Stack Web Developer 💻</strong>
           </div>

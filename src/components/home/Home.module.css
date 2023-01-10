@@ -1,12 +1,11 @@
 .home {
   background-color: white;
-  height: auto;
   margin-top: 80px;
-  padding: 50px 0px 50px 0px;
+  padding: 40px 0px 40px 0px;
 }
 
 .homeWrapper {
-  width: 90%;
+  width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -18,7 +17,6 @@
 }
 
 .homeLeft {
-  padding: 40px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -98,6 +96,10 @@
 
   .homeWrapper > div {
     width: 100%;
+  }
+
+  .homeLeft {
+    padding: 30px;
   }
 
   .homeRight > img {

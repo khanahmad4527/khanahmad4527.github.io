@@ -3,121 +3,116 @@
     {
       "id": "1",
       "title": "JavaScript",
-      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
-    },
-    {
-      "id": "4",
-      "title": "HTML",
-      "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png"
-    },
-    {
-      "id": "5",
-      "title": "CSS",
-      "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png"
+      "src": "https://drive.google.com/uc?export=view&id=1qbolY7qG3IXR8gGxCKY1iWMl0KdtBM3u"
     },
     {
       "id": "2",
+      "title": "HTML",
+      "src": "https://drive.google.com/uc?export=view&id=1UyRPEcHeCVKpvQ4-0gY09mLc5MulZ8B8"
+    },
+    {
+      "id": "3",
+      "title": "CSS",
+      "src": "https://drive.google.com/uc?export=view&id=1oKCmnUWQrUco2sr00PxvyQhnD_OS7TvL"
+    },
+    {
+      "id": "4",
       "title": "React",
-      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_logo_icon_146374.png"
+      "src": "https://drive.google.com/uc?export=view&id=1wlscL4zgEvwE4ZnVJKw9AVdlwQZyXi60"
     },
     {
-      "id": "3",
+      "id": "5",
       "title": "Redux",
-      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/redux_original_logo_icon_146365.png"
+      "src": "https://drive.google.com/uc?export=view&id=1GrsE6xXA5IXDi8-zaWVuiV585-NYXQqZ"
     },
     {
-      "id": "3",
-      "title": "Typescript",
-      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/typescript_original_logo_icon_146317.png"
+      "id": "6",
+      "title": "TypeScript",
+      "src": "https://drive.google.com/uc?export=view&id=1e4CDyd6_Cj8-5FdXGMvzB6Cl_mtT2h_2"
     },
     {
-      "id": "10",
+      "id": "7",
       "title": "Next.js",
-      "src": "https://cdn.icon-icons.com/icons2/2148/PNG/512/nextjs_icon_132160.png"
+      "src": "https://drive.google.com/uc?export=view&id=1IzoUTg5Ugk9OymaU1Lwv-5kS3LM0LZ_G"
     },
     {
-      "id": "10",
+      "id": "8",
       "title": "C++",
-      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/cplusplus_original_logo_icon_146581.png"
-    },
-    {
-      "id": "8",
-      "title": "Node.js",
-      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/nodejs_plain_logo_icon_146409.png"
-    },
-    {
-      "id": "8",
-      "title": "Express.js",
-      "src": "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"
+      "src": "https://drive.google.com/uc?export=view&id=1kxvru0ArG1fWLxCjDFyuUuHnfUa-O1q2"
     },
     {
       "id": "9",
+      "title": "Node.js",
+      "src": "https://drive.google.com/uc?export=view&id=1Xxk_M5jaAE190VZOVtF2TV2pStsj_J6z"
+    },
+    {
+      "id": "10",
+      "title": "Express.js",
+      "src": "https://drive.google.com/uc?export=view&id=14Rbyax4j01ZkbBZjHWm9Z5_pJL24YHur"
+    },
+    {
+      "id": "11",
       "title": "MongoDB",
-      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png"
+      "src": "https://drive.google.com/uc?export=view&id=1B6pohoQfeTqTq1LWbQwV17HrZCMSwr9C"
     }
   ],
   "tools": [
     {
       "id": "t1",
       "title": "VS Code",
-      "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png"
-    },
-    {
-      "id": "7",
-      "title": "GitHub",
-      "src": "https://cdn.icon-icons.com/icons2/936/PNG/512/github-logo_icon-icons.com_73546.png"
+      "src": "https://drive.google.com/uc?export=view&id=1E6DfD-EgdkppfzDnQFmyeF7hVKRlhJVQ"
     },
     {
       "id": "t2",
-      "title": "Netlify",
-      "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_netlify_icon_130354.png"
+      "title": "GitHub",
+      "src": "https://drive.google.com/uc?export=view&id=1Ex47GW9KJIh7e2_VjNUgPzIuQMuA-4FN"
     },
     {
       "id": "t3",
-      "title": "Versel",
-      "src": "https://cdn.icon-icons.com/icons2/3375/PNG/512/vercel_brand_icon_211876.png"
+      "title": "Netlify",
+      "src": "https://drive.google.com/uc?export=view&id=1ovCuWvyjfWLMpkRNqZsqv8IVq7ODw3Ud"
     },
     {
       "id": "t4",
-      "title": "Windows",
-      "src": "https://cdn.icon-icons.com/icons2/1488/PNG/512/5314-windows_102509.png"
+      "title": "Vercel",
+      "src": "https://drive.google.com/uc?export=view&id=1KxJRGpcJN26kaQIsiAwnYG_W9pAsw3lj"
     },
     {
-      "id": "t6",
-      "title": "CodeSandBox",
-      "src": "https://cdn.icon-icons.com/icons2/3266/PNG/512/code_box_icon_207329.png"
+      "id": "t5",
+      "title": "Windows 10",
+      "src": "https://drive.google.com/uc?export=view&id=1sn63bsqbtvwnMMGUfpQGox48Rcen9S-4"
     },
     {
       "id": "t6",
       "title": "MS Word",
-      "src": "https://cdn.icon-icons.com/icons2/2397/PNG/512/microsoft_office_word_logo_icon_145724.png"
+      "src": "https://drive.google.com/uc?export=view&id=1qVquQlISISh8NGy7n4433IuB0N9JkZRd"
     }
   ],
   "projects": [
     {
       "id": "p1",
-      "image": "https://lh4.googleusercontent.com/QjmsuXkt2kMdJJ0FaGcr9uj1lyDdlFtGtCc22m_v0aWgFGjZfizZ-UUHMBzFd4Bwbao=w2400",
+      "image": "https://drive.google.com/uc?export=view&id=1bmj1w1jZtZI8-kdcS65N0IzlJ6xdG0_e",
       "title": "Survey Company",
       "description": "Survey Company is a cloud-based survey application that assists users in the creation, distribution, and analysis of surveys. To boost response rates, users can send surveys to respondents and publish them on their websites and social media accounts.",
       "tech_stack": [
         {
           "id": "t1",
-          "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png",
+          "src": "https://drive.google.com/uc?export=view&id=1qbolY7qG3IXR8gGxCKY1iWMl0KdtBM3u",
           "title": "JavaScript"
         },
         {
           "id": "t2",
-          "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png",
+          "src": "https://drive.google.com/uc?export=view&id=1UyRPEcHeCVKpvQ4-0gY09mLc5MulZ8B8",
           "title": "HTML"
         },
         {
           "id": "t3",
-          "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png",
+          "src": "https://drive.google.com/uc?export=view&id=1oKCmnUWQrUco2sr00PxvyQhnD_OS7TvL",
           "title": "CSS"
         },
         {
           "id": "t4",
-          "src": "https://cdn.icon-icons.com/icons2/2790/PNG/512/json_filetype_icon_177531.png",
+          "src": "https://drive.google.com/uc?export=view&id=1PjYD2jyAcTwkQVTfpj7LOFEwAK-PyU0H",
           "title": "JSON"
         }
       ],
@@ -126,23 +121,23 @@
     },
     {
       "id": "p2",
-      "image": "https://lh4.googleusercontent.com/2_vYEIonfmjYD9I_N5vO_y2kfq63_zR_Gt2nAkp8x8GneN7VaxJEFf4ieOkxKPXVXbc=w2400",
+      "image": "https://drive.google.com/uc?export=view&id=1EgESSWO_bwipbwEYr2_xOqTcOuXUOFKd",
       "title": "Twiik",
       "description": "Twiik is a fitness company which provide membership to track the health of a user and best trainers, gyms & coaches all in one app",
       "tech_stack": [
         {
           "id": "t1",
-          "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png",
+          "src": "https://drive.google.com/uc?export=view&id=1qbolY7qG3IXR8gGxCKY1iWMl0KdtBM3u",
           "title": "JavaScript"
         },
         {
           "id": "t2",
-          "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png",
+          "src": "https://drive.google.com/uc?export=view&id=1UyRPEcHeCVKpvQ4-0gY09mLc5MulZ8B8",
           "title": "HTML"
         },
         {
           "id": "t3",
-          "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png",
+          "src": "https://drive.google.com/uc?export=view&id=1oKCmnUWQrUco2sr00PxvyQhnD_OS7TvL",
           "title": "CSS"
         }
       ],

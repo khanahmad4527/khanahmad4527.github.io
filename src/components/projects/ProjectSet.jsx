@@ -14,7 +14,7 @@ function ProjectSet({ image, title, description, tech_stack, github, deploy }) {
           <img src={image} alt={title} />
         </div>
         <div className={Styles.text}>
-          <h1>{title}</h1>
+          <h1 className={Styles.textTitle}>{title}</h1>
           <p>{description}</p>
           <div className={Styles.techStack}>
             {tech_stack.map((elm) => (

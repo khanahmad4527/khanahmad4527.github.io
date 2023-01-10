@@ -43,15 +43,15 @@
 }
 
 .socialLink {
-  width: 20%;
-  height: 80px;
+  width: 25%;
+  height: 82px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 .socialLink img {
-  width: 40%;
+  width: 30%;
   cursor: pointer;
 }
 
@@ -117,6 +117,10 @@
   }
 
   .socialLink {
-    width: 40%;
+    width: 50%;
+  }
+
+  .socialLink img {
+    width: 35%;
   }
 }
