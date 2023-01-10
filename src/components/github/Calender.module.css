@@ -14,7 +14,16 @@
 }
 
 .calender {
-  scale: 1.2;
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calender > * {
+  scale: 1.5;
 }
 
 .stats {
@@ -27,7 +36,12 @@
 /* meidum screens */
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .calender {
-    scale: 1.01;
+    width: 90%;
+    height: auto;
+  }
+
+  .calender > * {
+    scale: 1;
   }
 
   .stats {
@@ -44,6 +58,11 @@
 @media all and (min-width: 320px) and (max-width: 767px) {
   .calender {
     width: 90%;
+    height: auto;
+  }
+
+  .calender > * {
+    scale: 1;
   }
 
   .stats {

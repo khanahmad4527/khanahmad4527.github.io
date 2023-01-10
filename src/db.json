@@ -1,19 +1,9 @@
 {
-  "technologies": [
+  "language_framework": [
     {
       "id": "1",
       "title": "JavaScript",
       "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
-    },
-    {
-      "id": "2",
-      "title": "React",
-      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_logo_icon_146374.png"
-    },
-    {
-      "id": "3",
-      "title": "Redux",
-      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/redux_original_logo_icon_146365.png"
     },
     {
       "id": "4",
@@ -26,9 +16,29 @@
       "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_css_icon_130661.png"
     },
     {
-      "id": "7",
-      "title": "GitHub",
-      "src": "https://cdn.icon-icons.com/icons2/936/PNG/512/github-logo_icon-icons.com_73546.png"
+      "id": "2",
+      "title": "React",
+      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_logo_icon_146374.png"
+    },
+    {
+      "id": "3",
+      "title": "Redux",
+      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/redux_original_logo_icon_146365.png"
+    },
+    {
+      "id": "3",
+      "title": "Typescript",
+      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/typescript_original_logo_icon_146317.png"
+    },
+    {
+      "id": "10",
+      "title": "Next.js",
+      "src": "https://cdn.icon-icons.com/icons2/2148/PNG/512/nextjs_icon_132160.png"
+    },
+    {
+      "id": "10",
+      "title": "C++",
+      "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/cplusplus_original_logo_icon_146581.png"
     },
     {
       "id": "8",
@@ -36,31 +46,14 @@
       "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/nodejs_plain_logo_icon_146409.png"
     },
     {
+      "id": "8",
+      "title": "Express.js",
+      "src": "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"
+    },
+    {
       "id": "9",
       "title": "MongoDB",
       "src": "https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png"
-    },
-    {
-      "id": "10",
-      "title": "Next.js",
-      "src": "https://cdn.icon-icons.com/icons2/2148/PNG/512/nextjs_icon_132160.png"
-    }
-  ],
-  "proficiencies": [
-    {
-      "id": "p1",
-      "title": "Frontend",
-      "src": "https://cdn-icons-png.flaticon.com/512/1055/1055666.png"
-    },
-    {
-      "id": "p2",
-      "title": "Backend",
-      "src": "https://cdn-icons-png.flaticon.com/512/6213/6213731.png"
-    },
-    {
-      "id": "p3",
-      "title": "DSA",
-      "src": "https://cdn-icons-png.flaticon.com/512/6911/6911893.png"
     }
   ],
   "tools": [
@@ -68,6 +61,11 @@
       "id": "t1",
       "title": "VS Code",
       "src": "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png"
+    },
+    {
+      "id": "7",
+      "title": "GitHub",
+      "src": "https://cdn.icon-icons.com/icons2/936/PNG/512/github-logo_icon-icons.com_73546.png"
     },
     {
       "id": "t2",
@@ -85,14 +83,14 @@
       "src": "https://cdn.icon-icons.com/icons2/1488/PNG/512/5314-windows_102509.png"
     },
     {
-      "id": "t5",
-      "title": "Google",
-      "src": "https://cdn.icon-icons.com/icons2/729/PNG/512/google_icon-icons.com_62736.png"
-    },
-    {
       "id": "t6",
       "title": "CodeSandBox",
       "src": "https://cdn.icon-icons.com/icons2/3266/PNG/512/code_box_icon_207329.png"
+    },
+    {
+      "id": "t6",
+      "title": "MS Word",
+      "src": "https://cdn.icon-icons.com/icons2/2397/PNG/512/microsoft_office_word_logo_icon_145724.png"
     }
   ],
   "projects": [
@@ -123,7 +121,7 @@
           "title": "JSON"
         }
       ],
-      "github": "https://github.com/khan4527/survey_company_cwp02",
+      "github": "https://github.com/khanahmad4527/survey_company_cwp02",
       "deploy": "https://roaring-cendol-2586db.netlify.app/userhtml/userlanding"
     },
     {
@@ -148,7 +146,7 @@
           "title": "CSS"
         }
       ],
-      "github": "https://github.com/khan4527/utopian-wood-8919",
+      "github": "https://github.com/khanahmad4527/utopian-wood-8919",
       "deploy": "https://lucent-starlight-406966.netlify.app/"
     }
   ]

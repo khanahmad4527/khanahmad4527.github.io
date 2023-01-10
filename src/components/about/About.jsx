@@ -1,5 +1,4 @@
 import Styles from "./About.module.css";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 function About() {
   const openLink = (url) => {
@@ -10,30 +9,26 @@ function About() {
     <div className={Styles.about} id="aboutScroll">
       <h1 className={Styles.aboutH1}>About me</h1>
       <div className={Styles.aboutWrapper}>
-        <div className={Styles.aboutWrapperText}>
-          <div className={Styles.aboutWrapperTextDiv1}>
-            Detailed-oriented, responsible, and committed developer, with a
-            get-it-done, on-time, and high-quality product spirit, and more than
-            a year of experience defining requirements, designing, implementing,
-            testing, and delivering complex back-end and web applications using
-            a variety of programming and technologies.
+        <div className={Styles.aboutWrapperDiv}>
+          <div className={Styles.aboutMe}>
+            Analytical and detail-oriented aspiring full stack web developer,
+            capable of writing production-ready code using react, javascript,
+            and redux on the front end, nodejs, and express on the backend to
+            build single page applications. Passionate about coding and new
+            technologies.
           </div>
-          <div className={Styles.aboutWrapperTextDiv2}>
-            Love to travel and explore. It refreshes my mind, body, anxiety,
-            stress and keeps me active all the time. While exploring keeping all
-            the moments as memory in the camera, and this is how you became a
-            photographer also. And I enjoying the journey than the destination
-          </div>
-          <div className={Styles.aboutWrapperTextDiv3}>
-            <AiFillGithub
-              onClick={() => openLink("https://github.com/khan4527")}
-              className={Styles.githubBtn}
+          <div className={Styles.socialLink}>
+            <img
+              onClick={() => openLink("https://github.com/khanahmad4527")}
+              src={process.env.PUBLIC_URL + "./Images/github.svg"}
+              alt="About"
             />
-            <AiFillLinkedin
+            <img
               onClick={() =>
-                openLink("https://www.linkedin.com/in/ahmadkhan45")
+                openLink("https://www.linkedin.com/in/khanahmad4527")
               }
-              className={Styles.linkedinBtn}
+              src={process.env.PUBLIC_URL + "./Images/linkedin.svg"}
+              alt="About"
             />
           </div>
         </div>

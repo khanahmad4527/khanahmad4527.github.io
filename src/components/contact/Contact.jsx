@@ -1,7 +1,6 @@
 import Styles from "./Contact.module.css";
 import { SiGmail } from "react-icons/si";
 import { IoMdCall } from "react-icons/io";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { MdLocationOn } from "react-icons/md";
 
 function Contact() {
@@ -13,30 +12,34 @@ function Contact() {
       <div className={Styles.wrapper}>
         <h1 className={Styles.heading}>Contact</h1>
         <div className={Styles.wrapperDiv}>
-          <div>
+          <div className={Styles.wrapperDivLeft}>
             <img
               src="https://www.genscript.com/gsimages/support/image-contactus.png"
               alt="contactme"
             />
           </div>
-          <div>
-            <div>
+          <div className={Styles.wrapperDivRight}>
+            <div className={Styles.gmail}>
               <SiGmail /> khanahmad4527@gmail.com
             </div>
-            <div>
+            <div className={Styles.number}>
               <IoMdCall /> +917021764527
             </div>
-            <div>
+            <div className={Styles.location}>
               <MdLocationOn /> Thane, Maharashtra
             </div>
-            <div>
-              <AiFillLinkedin
-                onClick={() =>
-                  openLink("https://www.linkedin.com/in/ahmadkhan45")
-                }
+            <div className={Styles.socialLink}>
+              <img
+                onClick={() => openLink("https://github.com/khanahmad4527")}
+                src={process.env.PUBLIC_URL + "./Images/github.svg"}
+                alt="About"
               />
-              <AiFillGithub
-                onClick={() => openLink("https://github.com/khan4527")}
+              <img
+                onClick={() =>
+                  openLink("https://www.linkedin.com/in/khanahmad4527")
+                }
+                src={process.env.PUBLIC_URL + "./Images/linkedin.svg"}
+                alt="About"
               />
             </div>
           </div>

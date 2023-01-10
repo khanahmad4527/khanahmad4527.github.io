@@ -3,7 +3,6 @@ import Styles from "./Navbar.module.css";
 import { Link } from "react-scroll";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
-import resume from "../../Ahmad-Khan-Resume.pdf";
 import {
   Drawer,
   DrawerBody,
@@ -56,7 +55,7 @@ function Navbar() {
             </Link>
           </div>
           <div>
-            <a download="Ahmad-Khan-Resume.pdf" href={resume}>
+            <a href="https://drive.google.com/uc?id=14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b&export=download">
               <div
                 onClick={() =>
                   openLink(
@@ -134,7 +133,7 @@ function Navbar() {
                     </Link>
                   </div>
                   <div>
-                    <a href={resume} download>
+                    <a href="https://drive.google.com/uc?id=14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b&export=download">
                       <div
                         onClick={() => {
                           onClose();

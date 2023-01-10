@@ -1,6 +1,5 @@
 import Styles from "./Home.module.css";
 import { FaCloudDownloadAlt } from "react-icons/fa";
-import resume from "../../Ahmad-Khan-Resume.pdf";
 
 function Home() {
   const openLink = (url) => {
@@ -11,15 +10,10 @@ function Home() {
       <div className={Styles.homeWrapper}>
         <div className={Styles.homeLeft}>
           <div>Hi, I'm Ahmad Khan</div>
-          <div>Full Stack Web Developer 💻</div>
           <div>
-            Analytical and detail-oriented aspiring full stack web developer,
-            capable of writing production-ready code using react, javascript,
-            and redux on the front end, nodejs, and express on the backend to
-            build single page applications. Passionate about coding and new
-            technologies
+            A skilled <strong>Full Stack Web Developer 💻</strong>
           </div>
-          <a href={resume} download>
+          <a href="https://drive.google.com/uc?id=14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b&export=download">
             <div
               onClick={() =>
                 openLink(
