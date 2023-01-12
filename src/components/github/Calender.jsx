@@ -3,11 +3,29 @@ import GitHubCalendar from "react-github-calendar";
 import Styles from "./Calender.module.css";
 
 function Calender() {
+  const selectLastHalfYear = (contributions) => {
+    const startTimestamp = new Date("2022-09-04").getTime();
+    const endTimestamp = new Date().getTime();
+
+    return contributions.filter((day) => {
+      const contributionTimestamp = new Date(day.date).getTime();
+
+      return (
+        contributionTimestamp >= startTimestamp &&
+        contributionTimestamp <= endTimestamp
+      );
+    });
+  };
+
   return (
     <div className={Styles.main}>
       <h1 className={Styles.heading}>GitHub</h1>
       <div className={Styles.calender}>
-        <GitHubCalendar username="khanahmad4527" hideColorLegend={true} />
+        <GitHubCalendar
+          username="khanahmad4527"
+          transformData={selectLastHalfYear}
+          hideTotalCount={true}
+        />
       </div>
       <div className={Styles.stats}>
         <div>

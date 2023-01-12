@@ -24,6 +24,7 @@
 
 .calender > * {
   scale: 1.5;
+  padding: 5px;
 }
 
 .stats {
