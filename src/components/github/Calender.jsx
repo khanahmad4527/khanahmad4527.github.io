@@ -1,5 +1,6 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
+import ReactTooltip from "react-tooltip";
 import Styles from "./Calender.module.css";
 
 function Calender() {
@@ -22,9 +23,14 @@ function Calender() {
       <div className={Styles.calender}>
         <GitHubCalendar
           username="khanahmad4527"
+          color={"#005685"}
+          blockSize={20}
+          fontSize={20}
           hideColorLegend
           hideTotalCount
-        />
+        >
+          <ReactTooltip delayShow={20} html />
+        </GitHubCalendar>
       </div>
       <div className={Styles.stats}>
         <div>

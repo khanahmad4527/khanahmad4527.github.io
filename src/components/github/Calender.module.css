@@ -1,6 +1,5 @@
 .main {
   padding: 40px 0px 40px 0px;
-
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -11,20 +10,6 @@
 
 .heading {
   font-size: 40px;
-}
-
-.calender {
-  width: 90%;
-  height: 300px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.calender > * {
-  scale: 1.5;
-  padding: 5px;
 }
 
 .stats {
@@ -39,10 +24,6 @@
   .calender {
     width: 90%;
     height: auto;
-  }
-
-  .calender > * {
-    scale: 1;
   }
 
   .stats {
@@ -60,10 +41,6 @@
   .calender {
     width: 90%;
     height: auto;
-  }
-
-  .calender > * {
-    scale: 1;
   }
 
   .stats {
