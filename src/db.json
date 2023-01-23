@@ -168,7 +168,7 @@
       "id": "p3",
       "image": "https://drive.google.com/uc?export=view&id=1EgESSWO_bwipbwEYr2_xOqTcOuXUOFKd",
       "title": "Twiik",
-      "description": "Twiik is a fitness company which provide membership to track the health of a user and best trainers, gyms & coaches all in one app",
+      "description": "Twiik is a fitness company which provide membership to track the health of a user and best trainers, gyms & coaches all in one app.",
       "tech_stack": [
         {
           "id": "t1",
@@ -188,6 +188,31 @@
       ],
       "github": "https://github.com/khanahmad4527/twiik-fitness-app",
       "deploy": "https://lucent-starlight-406966.netlify.app/"
+    },
+    {
+      "id": "p4",
+      "image": "https://drive.google.com/uc?export=view&id=1j3zME6KhD0mOxUapjeBClAK52cg-UOKc",
+      "title": "Simple Youtube",
+      "description": "This application allows users to search for YouTube videos and play them within the app. The app also has sorting functionality, allowing users to sort videos by views, alphabetically, and popularity.",
+      "tech_stack": [
+        {
+          "id": "t1",
+          "src": "https://drive.google.com/uc?export=view&id=1qbolY7qG3IXR8gGxCKY1iWMl0KdtBM3u",
+          "title": "JavaScript"
+        },
+        {
+          "id": "t2",
+          "src": "https://drive.google.com/uc?export=view&id=1UyRPEcHeCVKpvQ4-0gY09mLc5MulZ8B8",
+          "title": "HTML"
+        },
+        {
+          "id": "t3",
+          "src": "https://drive.google.com/uc?export=view&id=1oKCmnUWQrUco2sr00PxvyQhnD_OS7TvL",
+          "title": "CSS"
+        }
+      ],
+      "github": "https://github.com/khanahmad4527/Simple-Youtube",
+      "deploy": "https://simple-youtube-app-45.netlify.app/"
     }
   ]
 }
