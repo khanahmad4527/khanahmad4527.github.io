@@ -96,6 +96,46 @@
   "projects": [
     {
       "id": "p1",
+      "image": "https://drive.google.com/uc?export=view&id=1SvspFXR3JtI4pGr_BNBJkOm5nQtj_In5",
+      "title": "Homedecor",
+      "description": "Homedecor is an e-commerce platform that offers a wide range of home decor products. User-friendly interface, easy browsing, filtering and payment options. Built with React, and json server.",
+      "tech_stack": [
+        {
+          "id": "t1",
+          "title": "React",
+          "src": "https://drive.google.com/uc?export=view&id=1wlscL4zgEvwE4ZnVJKw9AVdlwQZyXi60"
+        },
+        {
+          "id": "t2",
+          "title": "Chakra UI",
+          "src": "https://drive.google.com/uc?export=view&id=1Y0yUUZt3lnsw-weItkZL8PNWbree0Haq"
+        },
+        {
+          "id": "t3",
+          "title": "Redux",
+          "src": "https://drive.google.com/uc?export=view&id=1GrsE6xXA5IXDi8-zaWVuiV585-NYXQqZ"
+        },
+        {
+          "id": "t4",
+          "src": "https://drive.google.com/uc?export=view&id=1qbolY7qG3IXR8gGxCKY1iWMl0KdtBM3u",
+          "title": "JavaScript"
+        },
+        {
+          "id": "t5",
+          "src": "https://drive.google.com/uc?export=view&id=1UyRPEcHeCVKpvQ4-0gY09mLc5MulZ8B8",
+          "title": "HTML"
+        },
+        {
+          "id": "t6",
+          "src": "https://drive.google.com/uc?export=view&id=1oKCmnUWQrUco2sr00PxvyQhnD_OS7TvL",
+          "title": "CSS"
+        }
+      ],
+      "github": "https://github.com/khanahmad4527/HomeDecor",
+      "deploy": "https://homedecor-sand.vercel.app/"
+    },
+    {
+      "id": "p2",
       "image": "https://drive.google.com/uc?export=view&id=1bmj1w1jZtZI8-kdcS65N0IzlJ6xdG0_e",
       "title": "Survey Company",
       "description": "Survey Company is a cloud-based survey application that assists users in the creation, distribution, and analysis of surveys. To boost response rates, users can send surveys to respondents and publish them on their websites and social media accounts.",
@@ -125,7 +165,7 @@
       "deploy": "https://roaring-cendol-2586db.netlify.app/userhtml/userlanding"
     },
     {
-      "id": "p2",
+      "id": "p3",
       "image": "https://drive.google.com/uc?export=view&id=1EgESSWO_bwipbwEYr2_xOqTcOuXUOFKd",
       "title": "Twiik",
       "description": "Twiik is a fitness company which provide membership to track the health of a user and best trainers, gyms & coaches all in one app",
