@@ -28,6 +28,7 @@ function Calender() {
           fontSize={20}
           hideColorLegend
           hideTotalCount
+          className="react-activity-calendar"
         >
           <ReactTooltip delayShow={20} html />
         </GitHubCalendar>
@@ -37,18 +38,21 @@ function Calender() {
           <img
             src="https://streak-stats.demolab.com?user=khanahmad4527&theme=sea&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&background=005685"
             alt="Ahmad Stats"
+            id="github-streak-stats"
           />
         </div>
         <div>
           <img
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=khanahmad4527&title_color=005685&text_color=005685&icon_color=005685&bg_color=ffffff&border_radius=10&border_color=005685"
             alt="Ahmad Language"
+            id="github-top-langs"
           />
         </div>
         <div>
           <img
             src="https://github-readme-stats.vercel.app/api?username=khanahmad4527&show_icons=true&title_color=005685&text_color=005685&icon_color=005685&bg_color=ffffff&border_radius=10&border_color=005685"
             alt="Ahmad Stats"
+            id="github-stats-card"
           />
         </div>
       </div>

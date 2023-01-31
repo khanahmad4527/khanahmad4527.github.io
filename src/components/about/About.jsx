@@ -6,17 +6,18 @@ function About() {
   };
 
   return (
-    <div className={Styles.about} id="about">
+    <div className={Styles["about-section"]} id="about">
       <h1 className={Styles.aboutH1}>About me</h1>
       <div className={Styles.aboutWrapper}>
         <div className={Styles.aboutWrapperDiv}>
-          <div className={Styles.aboutMe}>
-            Analytical and detail oriented aspiring full stack web developer
-            with a passion for coding and new technologies. Strong skillset in
-            technologies such as React, JavaScript, Next.js, Redux, Node.js, and
-            MongoDB. Capable of building both single-page and multi-page web
-            applications, continuously seeking to learn and grow as a developer
-            and bring skills and passion to a new opportunity.
+          <div className={Styles.aboutMe} id="user-detail-intro">
+            <span id="user-detail-name">I am Ahmad Khan</span> an analytical and
+            detail oriented aspiring full stack web developer with a passion for
+            coding and new technologies. Strong skillset in technologies such as
+            React, JavaScript, Next.js, Redux, Node.js, and MongoDB. Capable of
+            building both single-page and multi-page web applications,
+            continuously seeking to learn and grow as a developer and bring
+            skills and passion to a new opportunity.
           </div>
           <div className={Styles.socialLink}>
             <img

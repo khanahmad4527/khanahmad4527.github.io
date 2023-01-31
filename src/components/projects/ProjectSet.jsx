@@ -8,28 +8,40 @@ function ProjectSet({ image, title, description, tech_stack, github, deploy }) {
   };
 
   return (
-    <div className={Styles.set}>
+    <div className={Styles["project-card"]}>
       <div className={Styles.container}>
         <div>
           <img src={image} alt={title} />
         </div>
         <div className={Styles.text}>
-          <h1 className={Styles.textTitle}>{title}</h1>
-          <p>{description}</p>
-          <div className={Styles.techStack}>
+          <h1 className={Styles["project-title"]}>{title}</h1>
+          <p className={Styles["project-description"]}>{description}</p>
+          <div className={Styles["project-tech-stack"]}>
             {tech_stack.map((elm) => (
-              <img
+              <div
                 key={Date.now() + Math.random()}
-                src={elm.src}
-                alt={elm.title}
-              />
+                className={Styles["skills-card"]}
+              >
+                <img
+                  src={elm.src}
+                  alt={elm.title}
+                  className={Styles["skills-card-img"]}
+                />
+                <p className={Styles["skills-card-name"]}>{elm.title}</p>
+              </div>
             ))}
           </div>
           <div className={Styles.btn}>
-            <div onClick={() => openLink(github)}>
+            <div
+              onClick={() => openLink(github)}
+              className={Styles["project-github-link"]}
+            >
               GitHub <FaGithub />
             </div>
-            <div onClick={() => openLink(deploy)}>
+            <div
+              onClick={() => openLink(deploy)}
+              className={Styles["project-deployed-link"]}
+            >
               Deploy <FaExternalLinkAlt />
             </div>
           </div>

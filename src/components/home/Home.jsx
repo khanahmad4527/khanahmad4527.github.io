@@ -14,7 +14,10 @@ function Home() {
             A skilled{" "}
             <strong id="user-detail-intro">Full Stack Web Developer 💻</strong>
           </div>
-          <a href="https://drive.google.com/uc?id=14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b&export=download">
+          <a
+            href="https://drive.google.com/uc?id=14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b&export=download"
+            id="resume-link-2"
+          >
             <div
               onClick={() =>
                 openLink(
@@ -22,13 +25,14 @@ function Home() {
                 )
               }
               className={Styles.resume}
+              id="resume-button-2"
             >
               Resume <FaCloudDownloadAlt />
             </div>
           </a>
         </div>
 
-        <div className={Styles.home - img}>
+        <div className={Styles["home-img"]}>
           <img
             src={process.env.PUBLIC_URL + "./Images/Profile.png"}
             alt="profile"
