@@ -29,7 +29,7 @@ function Home() {
 
         <div className={Styles.homeRight}>
           <img
-            src={process.env.PUBLIC_URL + "./Images/Profile.jpg"}
+            src={process.env.PUBLIC_URL + "./Images/Profile.png"}
             alt="profile"
           />
         </div>

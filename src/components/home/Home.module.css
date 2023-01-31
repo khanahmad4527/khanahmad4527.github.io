@@ -60,19 +60,31 @@
 
 .homeRight {
   display: flex;
+  width: min-content;
+  justify-content: right;
   align-items: center;
 }
 
 .homeRight > img {
-  width: 100%;
-  height: auto;
-  border-radius: 100%;
+  width: 500px;
+  height: 500px;
+  border: 3px solid #005685;
+  border-radius: 50%;
 }
 
 /* meidum screens */
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .homeLeft > div:nth-child(1) {
     font-size: 40px;
+  }
+
+  .homeRight > img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border: 3px solid #005685;
+    border-radius: 50%;
   }
 
   .resume {
@@ -102,11 +114,12 @@
   }
 
   .homeRight > img {
-    width: 80%;
-    height: auto;
     display: block;
     margin: auto;
-    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    border: 3px solid #005685;
+    border-radius: 50%;
   }
 
   .homeLeft > div:nth-child(1) {

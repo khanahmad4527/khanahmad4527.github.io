@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Web site created using create-react-app" />
   <title>Ahmad Khan's Portfolio</title>
-  <link rel="icon" type="image/x-icon" href="./Images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="./Images/favicon.ico" />
   <style>
     * {
       font-family: sans-serif;
@@ -15,17 +15,28 @@
       text-decoration: none;
     }
 
-    /* Hide scrollbar for Chrome, Safari and Opera */
-    *::-webkit-scrollbar {
-      display: none;
+    html {
+      --scrollbarBG: #CFD8DC;
+      --thumbBG: #005685;
     }
 
-    /* Hide scrollbar for IE, Edge and Firefox */
-    * {
-      -ms-overflow-style: none;
-      /* IE and Edge */
-      scrollbar-width: none;
-      /* Firefox */
+    body::-webkit-scrollbar {
+      width: 11px;
+    }
+
+    body {
+      scrollbar-width: thin;
+      scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+    }
+
+    body::-webkit-scrollbar-track {
+      background: var(--scrollbarBG);
+    }
+
+    body::-webkit-scrollbar-thumb {
+      background-color: var(--thumbBG);
+      border-radius: 6px;
+      border: 3px solid var(--scrollbarBG);
     }
   </style>
 </head>
