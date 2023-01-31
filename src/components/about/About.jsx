@@ -6,7 +6,7 @@ function About() {
   };
 
   return (
-    <div className={Styles.about} id="aboutScroll">
+    <div className={Styles.about} id="about">
       <h1 className={Styles.aboutH1}>About me</h1>
       <div className={Styles.aboutWrapper}>
         <div className={Styles.aboutWrapperDiv}>

@@ -4,7 +4,7 @@ import data from "../../db.json";
 
 function Skills() {
   return (
-    <div className={Styles.skills} id="skillsScroll">
+    <div className={Styles.skills} id="skills">
       <div className={Styles.skillsWrapper}>
         <h1 className={Styles.heading}>Languages & Frameworks</h1>
         <div className={Styles.skillsTechnologiesDiv}>

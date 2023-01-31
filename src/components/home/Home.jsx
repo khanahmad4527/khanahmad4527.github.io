@@ -6,12 +6,13 @@ function Home() {
     window.open(url);
   };
   return (
-    <div className={Styles.home} id="homeScroll">
+    <div className={Styles.home} id="home">
       <div className={Styles.homeWrapper}>
         <div className={Styles.homeLeft}>
-          <div>Hello, I'm Ahmad Khan</div>
+          <div id="user-detail-name">Hello, I'm Ahmad Khan</div>
           <div>
-            A skilled <strong>Full Stack Web Developer 💻</strong>
+            A skilled{" "}
+            <strong id="user-detail-intro">Full Stack Web Developer 💻</strong>
           </div>
           <a href="https://drive.google.com/uc?id=14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b&export=download">
             <div
@@ -31,6 +32,7 @@ function Home() {
           <img
             src={process.env.PUBLIC_URL + "./Images/Profile.png"}
             alt="profile"
+            class="home-img"
           />
         </div>
       </div>

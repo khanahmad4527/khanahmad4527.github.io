@@ -8,24 +8,28 @@ function ProjectSet({ image, title, description, tech_stack, github, deploy }) {
   };
 
   return (
-    <div className={Styles.set}>
+    <div className={Styles.set} class="project-card">
       <div className={Styles.container}>
-        <div>
+        <div class="project-title">
           <img src={image} alt={title} />
         </div>
         <div className={Styles.text}>
           <h1 className={Styles.textTitle}>{title}</h1>
-          <p>{description}</p>
-          <div className={Styles.techStack}>
+          <p class="project-description">{description}</p>
+          <div className={Styles.techStack} class="project-tech-stack">
             {tech_stack.map((elm) => (
-              <img key={Date.now()+Math.random()} src={elm.src} alt={elm.title} />
+              <img
+                key={Date.now() + Math.random()}
+                src={elm.src}
+                alt={elm.title}
+              />
             ))}
           </div>
           <div className={Styles.btn}>
-            <div onClick={() => openLink(github)}>
+            <div onClick={() => openLink(github)} class="project-github-link">
               GitHub <FaGithub />
             </div>
-            <div onClick={() => openLink(deploy)}>
+            <div onClick={() => openLink(deploy)} class="project-deployed-link">
               Deploy <FaExternalLinkAlt />
             </div>
           </div>

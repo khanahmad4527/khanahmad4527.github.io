@@ -8,7 +8,7 @@ function Contact() {
     window.open(url);
   };
   return (
-    <div className={Styles.contact} id="contactScroll">
+    <div className={Styles.contact} id="contact">
       <div className={Styles.wrapper}>
         <h1 className={Styles.heading}>Contact</h1>
         <div className={Styles.wrapperDiv}>
@@ -19,10 +19,10 @@ function Contact() {
             />
           </div>
           <div className={Styles.wrapperDivRight}>
-            <div className={Styles.gmail}>
+            <div className={Styles.gmail} id="contact-email">
               <SiGmail /> khanahmad4527@gmail.com
             </div>
-            <div className={Styles.number}>
+            <div className={Styles.number} id="contact-phone">
               <IoMdCall /> +917021764527
             </div>
             <div className={Styles.location}>
@@ -33,6 +33,7 @@ function Contact() {
                 onClick={() => openLink("https://github.com/khanahmad4527")}
                 src={process.env.PUBLIC_URL + "./Images/github.svg"}
                 alt="About"
+                id="contact-github"
               />
               <img
                 onClick={() =>
@@ -40,6 +41,7 @@ function Contact() {
                 }
                 src={process.env.PUBLIC_URL + "./Images/linkedin.svg"}
                 alt="About"
+                id="contact-linkedin"
               />
             </div>
           </div>

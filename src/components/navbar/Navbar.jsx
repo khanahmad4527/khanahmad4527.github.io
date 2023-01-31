@@ -18,10 +18,16 @@ function Navbar() {
   };
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
-    <div className={Styles.navbar}>
+    <div id="nav-menu" className={Styles.navbar}>
       <div className={Styles.wrapper}>
         <div className={Styles.wrapperLeft}>
-          <Link to="homeScroll" smooth={true} offset={-100} duration={500}>
+          <Link
+            to="home"
+            smooth={true}
+            offset={-100}
+            duration={500}
+            className="nav-link home"
+          >
             <img
               src={process.env.PUBLIC_URL + "./Images/icon.png"}
               alt="icon"
@@ -30,31 +36,61 @@ function Navbar() {
         </div>
         <div className={Styles.wrapperRight}>
           <div>
-            <Link to="homeScroll" smooth={true} offset={-100} duration={500}>
+            <Link
+              to="home"
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="nav-link home"
+            >
               Home
             </Link>
           </div>
           <div>
-            <Link to="aboutScroll" smooth={true} offset={-79} duration={500}>
+            <Link
+              to="about"
+              smooth={true}
+              offset={-79}
+              duration={500}
+              className="nav-link about"
+            >
               About
             </Link>
           </div>
           <div>
-            <Link to="skillsScroll" smooth={true} offset={-79} duration={500}>
+            <Link
+              to="skills"
+              smooth={true}
+              offset={-79}
+              duration={500}
+              className="nav-link skills"
+            >
               Skills
             </Link>
           </div>
           <div>
-            <Link to="projectsScroll" smooth={true} offset={-79} duration={500}>
+            <Link
+              to="projects"
+              smooth={true}
+              offset={-79}
+              duration={500}
+              className="nav-link projects"
+            >
               Projects
             </Link>
           </div>
           <div>
-            <Link to="contactScroll" smooth={true} offset={-79} duration={500}>
+            <Link
+              to="contact"
+              smooth={true}
+              offset={-79}
+              duration={500}
+              className="nav-link contact"
+            >
               Contact
             </Link>
           </div>
-          <div>
+          <div class="nav-link resume">
             <a href="https://drive.google.com/uc?id=14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b&export=download">
               <div
                 onClick={() =>
@@ -79,7 +115,7 @@ function Navbar() {
                 <div className={Styles.drawerbody}>
                   <div>
                     <Link
-                      to="homeScroll"
+                      to="home"
                       smooth={true}
                       offset={-100}
                       duration={500}
@@ -90,7 +126,7 @@ function Navbar() {
                   </div>
                   <div>
                     <Link
-                      to="aboutScroll"
+                      to="about"
                       smooth={true}
                       offset={-68}
                       duration={500}
@@ -101,7 +137,7 @@ function Navbar() {
                   </div>
                   <div>
                     <Link
-                      to="skillsScroll"
+                      to="skills"
                       smooth={true}
                       offset={-79}
                       duration={500}
@@ -112,7 +148,7 @@ function Navbar() {
                   </div>
                   <div>
                     <Link
-                      to="projectsScroll"
+                      to="projects"
                       smooth={true}
                       offset={-79}
                       duration={500}
@@ -123,7 +159,7 @@ function Navbar() {
                   </div>
                   <div>
                     <Link
-                      to="contactScroll"
+                      to="contact"
                       smooth={true}
                       offset={-79}
                       duration={500}
