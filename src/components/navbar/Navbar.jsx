@@ -88,6 +88,7 @@ function Navbar() {
             <a
               href="https://drive.google.com/uc?id=14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b&export=download"
               className="nav-link resume"
+              id="resume-link-1"
             >
               <div
                 onClick={() =>
@@ -96,6 +97,7 @@ function Navbar() {
                   )
                 }
                 className={Styles.resume}
+                id="resume-button-1"
               >
                 Resume <FaCloudDownloadAlt />
               </div>
@@ -117,7 +119,6 @@ function Navbar() {
                       offset={-100}
                       duration={500}
                       onClick={onClose}
-                      className="nav-link home"
                     >
                       Home
                     </Link>
@@ -129,7 +130,6 @@ function Navbar() {
                       offset={-68}
                       duration={500}
                       onClick={onClose}
-                      className="nav-link about"
                     >
                       About
                     </Link>
@@ -141,7 +141,6 @@ function Navbar() {
                       offset={-79}
                       duration={500}
                       onClick={onClose}
-                      className="nav-link skills"
                     >
                       Skills
                     </Link>
@@ -153,7 +152,6 @@ function Navbar() {
                       offset={-79}
                       duration={500}
                       onClick={onClose}
-                      className="nav-link projects"
                     >
                       Projects
                     </Link>
@@ -165,17 +163,12 @@ function Navbar() {
                       offset={-79}
                       duration={500}
                       onClick={onClose}
-                      className="nav-link contact"
                     >
                       Contact
                     </Link>
                   </div>
                   <div>
-                    <a
-                      href="https://drive.google.com/uc?id=14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b&export=download"
-                      className="nav-link resume"
-                      id="resume-link-1"
-                    >
+                    <a href="https://drive.google.com/uc?id=14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b&export=download">
                       <div
                         onClick={() => {
                           onClose();
@@ -184,7 +177,6 @@ function Navbar() {
                           );
                         }}
                         className={Styles.resume}
-                        id="resume-button-1"
                       >
                         Resume <FaCloudDownloadAlt />
                       </div>
