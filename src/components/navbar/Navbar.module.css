@@ -81,6 +81,11 @@
     gap: 20px;
   }
 
+  .drawerbody a:hover {
+    cursor: pointer;
+    color: #ff8a2e;
+  }
+
   .resume {
     background-color: #005685;
     color: white;
@@ -104,6 +109,11 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+  }
+
+  .drawerbody a:hover {
+    cursor: pointer;
+    color: #ff8a2e;
   }
 
   .resume {
