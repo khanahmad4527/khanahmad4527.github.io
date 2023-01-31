@@ -28,11 +28,10 @@ function Home() {
           </a>
         </div>
 
-        <div className={Styles.homeRight}>
+        <div className={Styles.home - img}>
           <img
             src={process.env.PUBLIC_URL + "./Images/Profile.png"}
             alt="profile"
-            class="home-img"
           />
         </div>
       </div>
