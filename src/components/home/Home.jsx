@@ -34,7 +34,7 @@ function Home() {
 
         <div className={Styles.homeRight}>
           <img
-            src={process.env.PUBLIC_URL + "./Images/Profile.png"}
+            src={"https://i.imgur.com/zXHZS8T.png"}
             alt="profile"
             className={Styles["home-img"]}
           />
