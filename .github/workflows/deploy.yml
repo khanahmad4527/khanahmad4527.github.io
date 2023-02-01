@@ -25,9 +25,6 @@ jobs:
         run: npm ci
       - name: Build Project
         run: npm run build
-      - name: Create Build Folder
-        run: |
-          cp -r C:\Users\Ahmad\Desktop\portfolio\build build/
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
         with:
