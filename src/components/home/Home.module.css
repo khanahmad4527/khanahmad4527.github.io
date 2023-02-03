@@ -11,11 +11,8 @@
   align-items: center;
 }
 
-.homeWrapper > div {
-  width: 45%;
-}
-
 .homeLeft {
+  width: 45%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -59,17 +56,17 @@
 }
 
 .homeRight {
-  display: flex;
-  width: min-content;
-  justify-content: right;
-  align-items: center;
-}
-
-.home-img {
   width: 500px;
   height: 500px;
   border: 3px solid #005685;
   border-radius: 50%;
+}
+
+.home-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
 }
 
 /* meidum screens */
@@ -78,17 +75,17 @@
     font-size: 40px;
   }
 
-  .home-img {
-    display: block;
-    margin: auto;
+  .homeRight {
     width: 300px;
     height: 300px;
-    border: 3px solid #005685;
-    border-radius: 50%;
   }
 
   .resume {
-    width: 125px;
+    width: 130px;
+  }
+
+  .homeLeft a {
+    width: min-content;
   }
 }
 
@@ -105,21 +102,14 @@
     width: 100%;
   }
 
-  .homeWrapper > div {
-    width: 100%;
-  }
-
   .homeLeft {
+    width: 100%;
     padding: 30px;
   }
 
-  .home-img {
-    display: block;
-    margin: auto;
+  .homeRight {
     width: 300px;
     height: 300px;
-    border: 3px solid #005685;
-    border-radius: 50%;
   }
 
   .homeLeft > div:nth-child(1) {
@@ -128,5 +118,9 @@
 
   .resume {
     width: 130px;
+  }
+
+  .homeLeft a {
+    width: min-content;
   }
 }

@@ -34,7 +34,7 @@ function Home() {
 
         <div className={Styles.homeRight}>
           <img
-            src={"https://i.imgur.com/zXHZS8T.png"}
+            src={"https://i.imgur.com/pHAVRHW.png"}
             alt="profile"
             className={Styles["home-img"]}
           />
