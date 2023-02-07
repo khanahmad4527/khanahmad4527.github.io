@@ -62,11 +62,10 @@
   display: none;
 }
 
-/*
 @media all and (min-width: 768px) and (max-width: 1024px) {
-   .wrapperRight {
+  .wrapperRight {
     display: none;
-  } 
+  }
 
   .responce {
     display: block;
@@ -84,7 +83,7 @@
   .drawerbody a:hover {
     cursor: pointer;
     color: #ff8a2e;
-  } 
+  }
 
   .navbar-resume {
     background-color: #005685;
@@ -119,6 +118,4 @@
     background-color: #005685;
     color: white;
   }
-} 
-
-*/
+}

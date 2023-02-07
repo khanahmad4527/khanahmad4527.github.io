@@ -108,9 +108,9 @@
     width: 90%;
   }
 
-  /* .project-tech-stack p {
+  .project-tech-stack p {
     display: none;
-  } */
+  }
 
   .project-card-btn {
     width: 100%;
@@ -141,9 +141,9 @@
     margin-top: 20px;
   }
 
-  /* .project-tech-stack p {
+  .project-tech-stack p {
     display: none;
-  } */
+  }
 
   .project-card-btn {
     width: 100%;

@@ -18,7 +18,10 @@ function ProjectSet({ image, title, description, tech_stack, github, deploy }) {
           <p className="project-description">{description}</p>
           <div className="project-tech-stack">
             {tech_stack.map((elm) => (
-              <div key={Date.now() + Math.random()} className="project-skills-card">
+              <div
+                key={Date.now() + Math.random()}
+                className="project-skills-card"
+              >
                 <img
                   src={elm.src}
                   alt={elm.title}

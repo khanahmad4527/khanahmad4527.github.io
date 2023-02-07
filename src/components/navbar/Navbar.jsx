@@ -170,6 +170,7 @@ function Navbar() {
                   <div>
                     <a href="https://drive.google.com/uc?id=14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b&export=download">
                       <div
+                        className="navbar-resume"
                         onClick={() => {
                           onClose();
                           openLink(
