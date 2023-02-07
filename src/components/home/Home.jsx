@@ -32,8 +32,12 @@ function Home() {
           </a>
         </div>
 
-        <div className="home-img">
-          <img src={"https://i.imgur.com/pHAVRHW.png"} alt="profile" />
+        <div className="homeright">
+          <img
+            className="home-img"
+            src={"https://i.imgur.com/pHAVRHW.png"}
+            alt="profile"
+          />
         </div>
       </div>
     </div>
