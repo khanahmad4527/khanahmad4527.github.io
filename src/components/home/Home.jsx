@@ -1,4 +1,4 @@
-import Styles from "./Home.module.css";
+import "./home.css";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 
 function Home() {
@@ -6,9 +6,9 @@ function Home() {
     window.open(url);
   };
   return (
-    <div className={Styles.home} id="home">
-      <div className={Styles.homeWrapper}>
-        <div className={Styles.homeLeft}>
+    <div className="home-main" id="home">
+      <div className="homeWrapper">
+        <div className="homeLeft">
           <div id="user-detail-name">Hello, I'm Ahmad Khan</div>
           <div>
             A skilled{" "}
@@ -24,7 +24,7 @@ function Home() {
                   "https://drive.google.com/file/d/14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b/view?usp=share_link"
                 )
               }
-              className={Styles.resume}
+              className="home-resume"
               id="resume-button-2"
             >
               Resume <FaCloudDownloadAlt />
@@ -32,11 +32,11 @@ function Home() {
           </a>
         </div>
 
-        <div className={Styles.homeRight}>
+        <div className="homeRight">
           <img
             src={"https://i.imgur.com/pHAVRHW.png"}
             alt="profile"
-            className={Styles["home-img"]}
+            className="home-img"
           />
         </div>
       </div>

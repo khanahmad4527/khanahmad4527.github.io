@@ -1,7 +1,7 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
-import Styles from "./Calender.module.css";
+import "./calender.css";
 
 function Calender() {
   // const selectLastHalfYear = (contributions) => {
@@ -18,9 +18,9 @@ function Calender() {
   //   });
   // };
   return (
-    <div className={Styles.main}>
-      <h1 className={Styles.heading}>GitHub</h1>
-      <div className={Styles.calender}>
+    <div className="github-main">
+      <h1 className="github-heading">GitHub</h1>
+      <div className="github-calender">
         <GitHubCalendar
           username="khanahmad4527"
           color={"#005685"}
@@ -33,7 +33,7 @@ function Calender() {
           <ReactTooltip delayShow={20} html />
         </GitHubCalendar>
       </div>
-      <div className={Styles.stats}>
+      <div className="github-stats">
         <div>
           <img
             src="https://streak-stats.demolab.com?user=khanahmad4527&theme=sea&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&background=005685"

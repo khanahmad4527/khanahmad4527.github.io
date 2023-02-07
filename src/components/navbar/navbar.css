@@ -30,7 +30,7 @@
   width: 50%;
 }
 
-.resume {
+.navbar-resume {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,7 +44,7 @@
   cursor: pointer;
 }
 
-.resume:hover {
+.navbar-resume:hover {
   color: white;
   background-color: #ff8a2e;
   -moz-transition: all 0.2s ease-in;
@@ -64,11 +64,11 @@
 
 /* meidum screens */
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  .wrapperRight {
+  /* .wrapperRight {
     display: none;
-  }
+  } */
 
-  .responce {
+  /* .responce {
     display: block;
     font-size: 30px;
   }
@@ -84,16 +84,16 @@
   .drawerbody a:hover {
     cursor: pointer;
     color: #ff8a2e;
-  }
+  } */
 
-  .resume {
+  .navbar-resume {
     background-color: #005685;
     color: white;
   }
 }
 
 /* small screens */
-@media all and (min-width: 320px) and (max-width: 767px) {
+@media all and (min-width: 280px) and (max-width: 767px) {
   .wrapperRight {
     display: none;
   }
@@ -116,7 +116,7 @@
     color: #ff8a2e;
   }
 
-  .resume {
+  .navbar-resume {
     background-color: #005685;
     color: white;
   }

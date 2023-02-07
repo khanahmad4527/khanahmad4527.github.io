@@ -1,5 +1,5 @@
 import React from "react";
-import Styles from "./Navbar.module.css";
+import "./navbar.css";
 import { Link } from "react-scroll";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -18,9 +18,9 @@ function Navbar() {
   };
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
-    <div id="nav-menu" className={Styles.navbar}>
-      <div className={Styles.wrapper}>
-        <div className={Styles.wrapperLeft}>
+    <div id="nav-menu" className="navbar">
+      <div className="wrapper">
+        <div className="wrapperLeft">
           <Link to="home" smooth={true} offset={-100} duration={500}>
             <img
               src={process.env.PUBLIC_URL + "./Images/icon.png"}
@@ -28,7 +28,7 @@ function Navbar() {
             />
           </Link>
         </div>
-        <div className={Styles.wrapperRight}>
+        <div className="wrapperRight">
           <div>
             <Link
               to="home"
@@ -96,7 +96,7 @@ function Navbar() {
                     "https://drive.google.com/file/d/14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b/view?usp=share_link"
                   )
                 }
-                className={Styles.resume}
+                className="navbar-resume"
                 id="resume-button-1"
               >
                 Resume <FaCloudDownloadAlt />
@@ -104,14 +104,14 @@ function Navbar() {
             </a>
           </div>
         </div>
-        <div className={Styles.responce}>
+        <div className="responce">
           <RxHamburgerMenu onClick={onOpen} />
           <Drawer isOpen={isOpen} placement="right" onClose={onClose}>
             <DrawerOverlay />
             <DrawerContent>
               <DrawerCloseButton />
               <DrawerBody marginTop={"30px"}>
-                <div className={Styles.drawerbody}>
+                <div className="drawerbody">
                   <div>
                     <Link
                       to="home"
@@ -185,7 +185,7 @@ function Navbar() {
                             "https://drive.google.com/file/d/14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b/view?usp=share_link"
                           );
                         }}
-                        className={Styles.resume}
+                        className="navbar-resume"
                         id="resume-button-1"
                       >
                         Resume <FaCloudDownloadAlt />

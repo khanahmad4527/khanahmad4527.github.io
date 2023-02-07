@@ -1,4 +1,4 @@
-import Styles from "./About.module.css";
+import "./about.css";
 
 function About() {
   const openLink = (url) => {
@@ -6,11 +6,11 @@ function About() {
   };
 
   return (
-    <div className={Styles["about-section"]} id="about">
-      <h1 className={Styles.aboutH1}>About me</h1>
-      <div className={Styles.aboutWrapper}>
-        <div className={Styles.aboutWrapperDiv}>
-          <div className={Styles.aboutMe} id="user-detail-intro">
+    <div className="about-section" id="about">
+      <h1 className="aboutH1">About me</h1>
+      <div className="aboutWrapper">
+        <div className="aboutWrapperDiv">
+          <div className="aboutMe" id="user-detail-intro">
             <span id="user-detail-name">I am Ahmad Khan</span> an analytical and
             detail oriented aspiring full stack web developer with a passion for
             coding and new technologies. Strong skillset in technologies such as
@@ -19,7 +19,7 @@ function About() {
             continuously seeking to learn and grow as a developer and bring
             skills and passion to a new opportunity.
           </div>
-          <div className={Styles.socialLink}>
+          <div className="about-socialLink">
             <img
               onClick={() => openLink("https://github.com/khanahmad4527")}
               src={process.env.PUBLIC_URL + "./Images/github.svg"}
@@ -34,7 +34,7 @@ function About() {
             />
           </div>
         </div>
-        <div className={Styles.aboutWrapperImg}>
+        <div className="aboutWrapperImg">
           <img
             src={process.env.PUBLIC_URL + "./Images/About.png"}
             alt="About"
