@@ -9,6 +9,13 @@
   padding: 40px 0px 40px 0px;
 }
 
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
 .projects-heading {
   font-size: 40px;
 }

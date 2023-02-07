@@ -6,9 +6,11 @@ function Projects() {
   return (
     <div className="projects-projects" id="projects">
       <h1 className="projects-heading">My Projects</h1>
-      {data.projects.map((elm) => {
-        return <ProjectSet key={elm.id} {...elm} />;
-      })}
+      <div className="project-card">
+        {data.projects.map((elm) => {
+          return <ProjectSet key={elm.id} {...elm} />;
+        })}
+      </div>
     </div>
   );
 }

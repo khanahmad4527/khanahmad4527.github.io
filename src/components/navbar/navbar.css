@@ -62,13 +62,13 @@
   display: none;
 }
 
-/* meidum screens */
+/* meidum screens
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  .wrapperRight {
+  /* .wrapperRight {
     display: none;
-  }
+  } */
 
-  .responce {
+  /* .responce {
     display: block;
     font-size: 30px;
   }
@@ -84,7 +84,7 @@
   .drawerbody a:hover {
     cursor: pointer;
     color: #ff8a2e;
-  }
+  } 
 
   .navbar-resume {
     background-color: #005685;
@@ -92,7 +92,6 @@
   }
 }
 
-/* small screens */
 @media all and (min-width: 280px) and (max-width: 767px) {
   .wrapperRight {
     display: none;
@@ -120,4 +119,6 @@
     background-color: #005685;
     color: white;
   }
-}
+} 
+
+*/

@@ -32,12 +32,8 @@ function Home() {
           </a>
         </div>
 
-        <div className="homeRight">
-          <img
-            src={"https://i.imgur.com/pHAVRHW.png"}
-            alt="profile"
-            className="home-img"
-          />
+        <div className="home-img">
+          <img src={"https://i.imgur.com/pHAVRHW.png"} alt="profile" />
         </div>
       </div>
     </div>

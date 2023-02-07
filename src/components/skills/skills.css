@@ -1,4 +1,4 @@
-.skills {
+.skills-main {
   background-color: #e2e4e3;
   padding: 40px 0px 60px 0px;
 }
@@ -14,7 +14,7 @@
   gap: 40px;
 }
 
-.heading {
+.skills-heading {
   font-size: 40px;
 }
 

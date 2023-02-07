@@ -8,7 +8,7 @@ function ProjectSet({ image, title, description, tech_stack, github, deploy }) {
   };
 
   return (
-    <div className="project-card">
+    <div className="project-card-main">
       <div className="project-card-container">
         <div>
           <img src={image} alt={title} />
@@ -18,13 +18,13 @@ function ProjectSet({ image, title, description, tech_stack, github, deploy }) {
           <p className="project-description">{description}</p>
           <div className="project-tech-stack">
             {tech_stack.map((elm) => (
-              <div key={Date.now() + Math.random()} className="skills-card">
+              <div key={Date.now() + Math.random()} className="project-skills-card">
                 <img
                   src={elm.src}
                   alt={elm.title}
-                  className="skills-card-img"
+                  className="project-skills-card-img"
                 />
-                <p className="skills-card-name">{elm.title}</p>
+                <p className="project-skills-card-name">{elm.title}</p>
               </div>
             ))}
           </div>

@@ -36,7 +36,7 @@ function Calender() {
       <div className="github-stats">
         <div>
           <img
-            src="https://streak-stats.demolab.com?user=khanahmad4527&theme=sea&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&background=005685"
+            src="https://github-readme-streak-stats.herokuapp.com?user=khanahmad4527&theme=sea&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&background=005685"
             alt="Ahmad Stats"
             id="github-streak-stats"
           />

@@ -1,12 +1,12 @@
-import Styles from "./TechStack.module.css";
+import "./techstack.css";
 
 function TechStack({ src, title }) {
   return (
-    <div className={Styles.main}>
-      <div>
+    <div className="skills-card">
+      <div className="skills-card-img">
         <img src={src} alt={title} />
       </div>
-      <p>{title}</p>
+      <p className="skills-card-name">{title}</p>
     </div>
   );
 }

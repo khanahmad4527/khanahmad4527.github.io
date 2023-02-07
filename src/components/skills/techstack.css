@@ -1,4 +1,4 @@
-.main {
+.skills-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,7 +15,7 @@
   background-color: white;
 }
 
-.main:hover {
+.skills-card:hover {
   transform: scale(1.1);
   color: #ff8a2e;
   -moz-transition: all 0.2s ease-in;
@@ -24,12 +24,12 @@
   transition: all 0.2s ease-in;
 }
 
-.main > div {
+.skills-card > div {
   width: 150px;
   height: 150px;
 }
 
-.main img {
+.skills-card img {
   width: 100%;
   height: 100%;
   display: block;
@@ -38,12 +38,12 @@
 
 /* small screens */
 @media all and (min-width: 280px) and (max-width: 767px) {
-  .main {
+  .skills-card {
     width: 140px;
     padding: 8px;
   }
 
-  .main > div {
+  .skills-card > div {
     width: 80px;
     height: 80px;
   }
