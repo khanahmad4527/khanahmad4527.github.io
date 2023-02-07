@@ -58,17 +58,17 @@
   color: #ff8a2e;
 }
 
-.responce {
+/* .responce {
   display: none;
-}
+} */
 
-/* meidum screens
+/*
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  /* .wrapperRight {
+   .wrapperRight {
     display: none;
-  } */
+  } 
 
-  /* .responce {
+  .responce {
     display: block;
     font-size: 30px;
   }
