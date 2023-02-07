@@ -8,7 +8,7 @@ function ProjectSet({ image, title, description, tech_stack, github, deploy }) {
   };
 
   return (
-    <div className="project-card-main">
+    <div className="project-card">
       <div className="project-card-container">
         <div>
           <img src={image} alt={title} />

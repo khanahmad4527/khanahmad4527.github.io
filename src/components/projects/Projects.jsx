@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div className="projects-projects" id="projects">
       <h1 className="projects-heading">My Projects</h1>
-      <div className="project-card">
+      <div className="projects-container">
         {data.projects.map((elm) => {
           return <ProjectSet key={elm.id} {...elm} />;
         })}
