@@ -4,31 +4,39 @@ import ReactTooltip from "react-tooltip";
 import "./calender.css";
 
 function Calender() {
-  // const selectLastHalfYear = (contributions) => {
-  //   const startTimestamp = new Date("2022-09-04").getTime();
-  //   const endTimestamp = new Date().getTime();
+  const selectLast12Months = (contributions) => {
+    const today = new Date();
+    const startTimestamp = new Date(
+      today.getFullYear(),
+      today.getMonth() - 11,
+      1
+    ).getTime();
+    const endTimestamp =
+      new Date(today.getFullYear(), today.getMonth() + 1, 1).getTime() - 1;
 
-  //   return contributions.filter((day) => {
-  //     const contributionTimestamp = new Date(day.date).getTime();
+    return contributions.filter((day) => {
+      const contributionTimestamp = new Date(day.date).getTime();
 
-  //     return (
-  //       contributionTimestamp >= startTimestamp &&
-  //       contributionTimestamp <= endTimestamp
-  //     );
-  //   });
-  // };
+      return (
+        contributionTimestamp >= startTimestamp &&
+        contributionTimestamp <= endTimestamp
+      );
+    });
+  };
+
   return (
     <div className="github-main">
       <h1 className="github-heading">GitHub</h1>
       <div className="github-calender">
         <GitHubCalendar
+          transformData={selectLast12Months}
           username="khanahmad4527"
           color={"#005685"}
           blockSize={20}
           fontSize={20}
           hideColorLegend
           hideTotalCount
-          className="react-activity-calendar"
+          style={{ padding: "10px 20px" }}
         >
           <ReactTooltip delayShow={20} html />
         </GitHubCalendar>
