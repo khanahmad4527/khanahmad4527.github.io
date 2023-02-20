@@ -1,4 +1,7 @@
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   height: 80px;
   background-color: #005685;
@@ -8,8 +11,25 @@
   color: white;
 }
 
+.navbarScrolled {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: #005685;
+  position: fixed;
+  z-index: 100;
+  font-size: 20px;
+  color: white;
+  opacity: 0.9;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
 .wrapper {
-  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;

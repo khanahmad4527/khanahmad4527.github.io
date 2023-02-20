@@ -1,49 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>Ahmad Khan's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./Images/favicon.ico" />
+    <style>
+      * {
+        font-family: sans-serif;
+        margin: 0;
+        text-decoration: none;
+      }
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Web site created using create-react-app" />
-  <title>Ahmad Khan's Portfolio</title>
-  <link rel="icon" type="image/x-icon" href="./Images/favicon.ico" />
-  <style>
-    * {
-      font-family: sans-serif;
-      margin: 0;
-      overflow-x: hidden;
-      text-decoration: none;
-    }
+      html {
+        --scrollbarBG: #cfd8dc;
+        --thumbBG: #005685;
+      }
 
-    html {
-      --scrollbarBG: #CFD8DC;
-      --thumbBG: #005685;
-    }
+      body::-webkit-scrollbar {
+        width: 11px;
+      }
 
-    body::-webkit-scrollbar {
-      width: 11px;
-    }
+      body {
+        scrollbar-width: thin;
+        scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+      }
 
-    body {
-      scrollbar-width: thin;
-      scrollbar-color: var(--thumbBG) var(--scrollbarBG);
-    }
+      body::-webkit-scrollbar-track {
+        background: var(--scrollbarBG);
+      }
 
-    body::-webkit-scrollbar-track {
-      background: var(--scrollbarBG);
-    }
+      body::-webkit-scrollbar-thumb {
+        background-color: var(--thumbBG);
+        border-radius: 6px;
+        border: 3px solid var(--scrollbarBG);
+      }
+    </style>
+  </head>
 
-    body::-webkit-scrollbar-thumb {
-      background-color: var(--thumbBG);
-      border-radius: 6px;
-      border: 3px solid var(--scrollbarBG);
-    }
-  </style>
-</head>
-
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
-</body>
-
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
 </html>

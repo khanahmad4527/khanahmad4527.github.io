@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./navbar.css";
 import { Link } from "react-scroll";
 import { FaCloudDownloadAlt } from "react-icons/fa";
@@ -17,8 +17,27 @@ function Navbar() {
     window.open(url);
   };
   const { isOpen, onOpen, onClose } = useDisclosure();
+
+  const [hasScrolled, setHasScrolled] = useState(false);
+
+  const handleScroll = () => {
+    const scrollTop = window.pageYOffset;
+    if (scrollTop > 0) {
+      setHasScrolled(true);
+    } else {
+      setHasScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div id="nav-menu" className="navbar">
+    <div id="nav-menu" className={hasScrolled ? "navbarScrolled" : "navbar"}>
       <div className="wrapper">
         <div className="wrapperLeft">
           <Link to="home" smooth={true} offset={-100} duration={500}>
@@ -44,7 +63,7 @@ function Navbar() {
             <Link
               to="about"
               smooth={true}
-              offset={-79}
+              offset={-70}
               duration={500}
               className="nav-link about"
             >
@@ -55,7 +74,7 @@ function Navbar() {
             <Link
               to="skills"
               smooth={true}
-              offset={-79}
+              offset={-70}
               duration={500}
               className="nav-link skills"
             >
@@ -66,7 +85,7 @@ function Navbar() {
             <Link
               to="projects"
               smooth={true}
-              offset={-79}
+              offset={-70}
               duration={500}
               className="nav-link projects"
             >
@@ -77,7 +96,7 @@ function Navbar() {
             <Link
               to="contact"
               smooth={true}
-              offset={-79}
+              offset={-70}
               duration={500}
               className="nav-link contact"
             >
@@ -127,7 +146,7 @@ function Navbar() {
                     <Link
                       to="about"
                       smooth={true}
-                      offset={-79}
+                      offset={-70}
                       duration={500}
                       onClick={onClose}
                     >
@@ -138,7 +157,7 @@ function Navbar() {
                     <Link
                       to="skills"
                       smooth={true}
-                      offset={-79}
+                      offset={-70}
                       duration={500}
                       onClick={onClose}
                     >
@@ -149,7 +168,7 @@ function Navbar() {
                     <Link
                       to="projects"
                       smooth={true}
-                      offset={-79}
+                      offset={-70}
                       duration={500}
                       onClick={onClose}
                     >
@@ -160,7 +179,7 @@ function Navbar() {
                     <Link
                       to="contact"
                       smooth={true}
-                      offset={-79}
+                      offset={-70}
                       duration={500}
                       onClick={onClose}
                     >
