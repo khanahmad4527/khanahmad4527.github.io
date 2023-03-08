@@ -35,7 +35,7 @@ function Home() {
         <div className="homeright">
           <img
             className="home-img"
-            src="https://i.imgur.com/GAxFioK.png"
+            src={process.env.PUBLIC_URL + "./Images/proImg.png"}
             alt="profile"
           />
         </div>
