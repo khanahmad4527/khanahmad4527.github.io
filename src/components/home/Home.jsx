@@ -35,7 +35,7 @@ function Home() {
         <div className="homeright">
           <img
             className="home-img"
-            src={"https://i.imgur.com/pHAVRHW.png"}
+            src="https://i.imgur.com/GAxFioK.png"
             alt="profile"
           />
         </div>
