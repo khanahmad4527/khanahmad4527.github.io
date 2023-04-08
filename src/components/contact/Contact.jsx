@@ -23,7 +23,7 @@ function Contact() {
               <SiGmail /> khanahmad4527@gmail.com
             </div>
             <div className="contact-number" id="contact-phone">
-              <IoMdCall /> +917021764527
+              <IoMdCall /> +91 7021764527
             </div>
             <div className="contact-location">
               <MdLocationOn /> Thane, Maharashtra
