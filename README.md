@@ -1,4 +1,4 @@
-Hello, eveyone
+Hello, everyone
 
 I am Ahmad Khan A skilled full stack web developer
 
