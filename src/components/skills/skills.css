@@ -4,7 +4,7 @@
 }
 
 .skillsWrapper {
-  width: 90%;
+  width: 100%;
   margin: auto;
   text-align: center;
   display: flex;
@@ -28,16 +28,6 @@
   padding: 20px 0px;
 }
 
-.skillsProficienciesDiv {
-  width: 100%;
-  margin: auto;
-  display: grid;
-  justify-content: space-evenly;
-  grid-template-columns: repeat(3, auto);
-  gap: 40px;
-  padding: 20px 0px;
-}
-
 .skillsToolsDiv {
   width: 100%;
   margin: auto;
@@ -48,17 +38,13 @@
   padding: 20px 0px;
 }
 
-/* meidum screens */
+/* medium screens */
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .skillsWrapper {
     width: 100%;
   }
 
   .skillsTechnologiesDiv {
-    grid-template-columns: repeat(3, auto);
-  }
-
-  .skillsProficienciesDiv {
     grid-template-columns: repeat(3, auto);
   }
 
@@ -75,13 +61,11 @@
 
   .skillsTechnologiesDiv {
     grid-template-columns: repeat(2, auto);
-  }
-
-  .skillsProficienciesDiv {
-    grid-template-columns: repeat(2, auto);
+    gap: 20px;
   }
 
   .skillsToolsDiv {
     grid-template-columns: repeat(2, auto);
+    gap: 20px;
   }
 }
