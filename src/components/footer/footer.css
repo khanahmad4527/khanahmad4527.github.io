@@ -7,3 +7,10 @@
   font-size: 20px;
   text-align: center;
 }
+
+@media all and (min-width: 280px) and (max-width: 319px) {
+  .love {
+    font-size: 18px;
+    text-align: center;
+  }
+}

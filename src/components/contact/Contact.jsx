@@ -9,7 +9,6 @@ function Contact() {
   };
   return (
     <div className="contact-main" id="contact">
-      <div className="headingwrapper">
         <h1 className="contactheading">Contact</h1>
         <div className="headingwrapperDiv">
           <div className="headingwrapperDivLeft">
@@ -46,7 +45,6 @@ function Contact() {
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 }

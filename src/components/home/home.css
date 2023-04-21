@@ -1,9 +1,6 @@
 .home-main {
   background-color: white;
   padding: 150px 0px 100px 0px;
-}
-
-.homeWrapper {
   width: 80%;
   margin: auto;
   display: flex;
@@ -67,7 +64,7 @@
   margin: auto;
 }
 
-/* meidum screens */
+/* medium screens */
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .homeLeft > div:nth-child(1) {
     font-size: 40px;
@@ -88,16 +85,13 @@
 }
 
 /* small screens */
-@media all and (min-width: 280px) and (max-width: 767px) {
+@media all and (min-width: 320px) and (max-width: 767px) {
   .home-main {
+    width: 100%;
     padding: 100px 0px 10px 0px;
-  }
-
-  .homeWrapper {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    width: 100%;
   }
 
   .homeLeft {
@@ -108,6 +102,39 @@
   .home-img {
     width: 300px;
     height: 300px;
+  }
+
+  .homeLeft > div:nth-child(1) {
+    font-size: 40px;
+  }
+
+  .home-resume {
+    width: 130px;
+  }
+
+  .homeLeft a {
+    width: min-content;
+  }
+}
+
+/* fold screens */
+@media all and (min-width: 280px) and (max-width: 319px) {
+  .home-main {
+    width: 100%;
+    padding: 100px 0px 10px 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .homeLeft {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .home-img {
+    width: 250px;
+    height: 250px;
   }
 
   .homeLeft > div:nth-child(1) {

@@ -7,38 +7,36 @@ function Home() {
   };
   return (
     <div className="home-main" id="home">
-      <div className="homeWrapper">
-        <div className="homeLeft">
-          <div id="user-detail-name">Hello, I'm Ahmad Khan</div>
-          <div>
-            A skilled{" "}
-            <strong id="user-detail-intro">Full Stack Web Developer 💻</strong>
-          </div>
-          <a
-            href="https://drive.google.com/uc?id=14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b&export=download"
-            id="resume-link-2"
+      <div className="homeLeft">
+        <div id="user-detail-name">Hello, I'm Ahmad Khan</div>
+        <div>
+          A skilled{" "}
+          <strong id="user-detail-intro">Full Stack Web Developer 💻</strong>
+        </div>
+        <a
+          href="https://drive.google.com/uc?id=14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b&export=download"
+          id="resume-link-2"
+        >
+          <div
+            onClick={() =>
+              openLink(
+                "https://drive.google.com/file/d/14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b/view?usp=share_link"
+              )
+            }
+            className="home-resume"
+            id="resume-button-2"
           >
-            <div
-              onClick={() =>
-                openLink(
-                  "https://drive.google.com/file/d/14xQ3jd2ktenVIdvL8SkSQjf5lTnUyj7b/view?usp=share_link"
-                )
-              }
-              className="home-resume"
-              id="resume-button-2"
-            >
-              Resume <FaCloudDownloadAlt />
-            </div>
-          </a>
-        </div>
+            Resume <FaCloudDownloadAlt />
+          </div>
+        </a>
+      </div>
 
-        <div className="homeright">
-          <img
-            className="home-img"
-            src={process.env.PUBLIC_URL + "./Images/proImg.png"}
-            alt="profile"
-          />
-        </div>
+      <div className="homeright">
+        <img
+          className="home-img"
+          src={process.env.PUBLIC_URL + "./Images/proImg.png"}
+          alt="profile"
+        />
       </div>
     </div>
   );

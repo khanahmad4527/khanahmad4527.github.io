@@ -1,9 +1,6 @@
 .contact-main {
   background-color: white;
   padding: 40px 0px 60px 0px;
-}
-
-.headingwrapper {
   width: 60%;
   margin: auto;
   text-align: center;
@@ -61,17 +58,18 @@
   transition: all 0.2s ease-in;
 }
 
-/* meidum screens */
+/* medium screens */
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  .headingwrapper {
+  .contact-main {
     width: 80%;
   }
 }
 
 /* small screens */
-@media all and (min-width: 280px) and (max-width: 767px) {
-  .headingwrapper {
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .contact-main {
     width: 90%;
+    font-size: 15px;
   }
 
   .headingwrapperDiv {
@@ -79,6 +77,29 @@
     margin: auto;
     display: flex;
     justify-content: center;
+  }
+
+  .headingwrapperDivLeft {
+    display: none;
+  }
+}
+
+/* fold screens */
+@media all and (min-width: 280px) and (max-width: 319px) {
+  .contact-main {
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .headingwrapperDiv {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .headingwrapperDivRight {
+    font-size: 18px;
   }
 
   .headingwrapperDivLeft {
