@@ -166,6 +166,51 @@
     },
     {
       "id": "p2",
+      "image": "https://res.cloudinary.com/dalqx198y/image/upload/v1682832800/Screenshot_428_iysklc.png",
+      "title": "LuxeFemme",
+      "description": "LuxeFemme is an e-commerce site offering women a diverse range of fashion and beauty products. From clothing to beauty items, LuxeFemme has everything for the modern woman to stay stylish. Browse now!",
+      "tech_stack": [
+        {
+          "id": "t1",
+          "title": "React",
+          "src": "https://i.imgur.com/mQR0hGj.png"
+        },
+        {
+          "id": "t2",
+          "src": "https://i.imgur.com/o6j9gor.png",
+          "title": "JavaScript"
+        },
+        {
+          "id": "t3",
+          "title": "Redux",
+          "src": "https://i.imgur.com/qt3UEI1.png"
+        },
+        {
+          "id": "t4",
+          "title": "Chakra UI",
+          "src": "https://i.imgur.com/HRd0AGj.png"
+        },
+        {
+          "id": "t5",
+          "title": "Node.js",
+          "src": "https://i.imgur.com/3yOa5Cd.png"
+        },
+        {
+          "id": "t6",
+          "title": "Express.js",
+          "src": "https://i.imgur.com/YHl5jjX.png"
+        },
+        {
+          "id": "t7",
+          "title": "MongoDB",
+          "src": "https://i.imgur.com/Pb0GHBI.png"
+        }
+      ],
+      "github": "https://github.com/khanahmad4527/luxefemme",
+      "deploy": "https://luxefemme.vercel.app"
+    },
+    {
+      "id": "p3",
       "image": "https://i.imgur.com/RP8n3yH.png",
       "title": "Homedecor",
       "description": "Homedecor is an e-commerce platform that offers a wide range of home decor products. User-friendly interface, easy browsing, filtering and payment options. Built with React, and json server.",
@@ -205,7 +250,7 @@
       "deploy": "https://homedecor-sand.vercel.app/"
     },
     {
-      "id": "p3",
+      "id": "p4",
       "image": "https://i.imgur.com/alkfihx.png",
       "title": "Survey Company",
       "description": "Survey Company is a cloud-based survey application that assists users in the creation, distribution, and analysis of surveys. To boost response rates, users can send surveys to respondents and publish them on their websites and social media accounts.",
@@ -235,7 +280,7 @@
       "deploy": "https://roaring-cendol-2586db.netlify.app/userhtml/userlanding"
     },
     {
-      "id": "p4",
+      "id": "p5",
       "image": "https://i.imgur.com/0ESfIAr.png",
       "title": "Twiik",
       "description": "Twiik is a fitness company which provide membership to track the health of a user and best trainers, gyms & coaches all in one app.",
@@ -260,7 +305,7 @@
       "deploy": "https://lucent-starlight-406966.netlify.app/"
     },
     {
-      "id": "p5",
+      "id": "p6",
       "image": "https://i.imgur.com/yjTlAA3.png",
       "title": "Simple Youtube",
       "description": "This application allows users to search for YouTube videos and play them within the app. The app also has sorting functionality, allowing users to sort videos by views, alphabetically, and popularity.",
