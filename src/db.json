@@ -165,6 +165,36 @@
       "deploy": "https://swyftmarket.vercel.app/"
     },
     {
+      "id": "p1.1",
+      "image": "https://res.cloudinary.com/dalqx198y/image/upload/v1683266516/Screenshot_432_wzchip.png",
+      "title": "Quiz Game",
+      "description": "This is a quiz app that uses the Open Trivia Database (OpenTDB) API to fetch trivia questions from various categories, including history, sports, entertainment, and more. Users can choose the difficulty level of the questions and the number of questions to include in the quiz. The app displays the correct answer if the user's answer is incorrect and keeps track of the user's score throughout the quiz.",
+      "tech_stack": [
+        {
+          "id": "t1",
+          "title": "React",
+          "src": "https://i.imgur.com/mQR0hGj.png"
+        },
+        {
+          "id": "t2",
+          "src": "https://i.imgur.com/o6j9gor.png",
+          "title": "JavaScript"
+        },
+        {
+          "id": "t3",
+          "title": "Redux",
+          "src": "https://i.imgur.com/qt3UEI1.png"
+        },
+        {
+          "id": "t4",
+          "title": "Chakra UI",
+          "src": "https://i.imgur.com/HRd0AGj.png"
+        }
+      ],
+      "github": "https://github.com/khanahmad4527/quiz_game",
+      "deploy": "https://quiz-game-puce-iota.vercel.app/"
+    },
+    {
       "id": "p2",
       "image": "https://res.cloudinary.com/dalqx198y/image/upload/v1682832800/Screenshot_428_iysklc.png",
       "title": "LuxeFemme",
